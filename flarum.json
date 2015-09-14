@@ -2,7 +2,7 @@
 	"name": "s9e-autoimage",
 	"title": "s9e/autoimage",
 	"description": "Automatically turn image links into images.",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": {
 		"name": "JoshyPHP"
 	},
@@ -17,7 +17,7 @@
 	},
 	"icon": {
 		"name": "image",
-		"backgroundColor": "#18cd18",
+		"backgroundColor": "#15b715",
 		"color": "#fff"
 	}
 }
