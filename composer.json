@@ -1,23 +1,28 @@
 {
-	"name": "s9e-autoimage",
-	"title": "s9e/autoimage",
+	"name": "s9e/flarum-ext-autoimage",
+	"title": "s9e/flarum-ext-autoimage",
 	"description": "Automatically turn image links into images.",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"author": {
 		"name": "JoshyPHP"
 	},
 	"license": "MIT",
 	"require": {
 		"php": ">=5.4.0",
-		"flarum": ">0.1.0"
+		"flarum": ">=0.1.0-beta.5"
 	},
 	"support": {
 		"source": "https://github.com/s9e/flarum-ext-autoimage",
 		"issues": "https://github.com/s9e/flarum-ext-autoimage/issues"
 	},
-	"icon": {
-		"name": "image",
-		"backgroundColor": "#15b715",
-		"color": "#fff"
+	"extra": {
+		"flarum-extension": {
+			"title": "s9e/autoimage",
+			"icon": {
+				"name": "image",
+				"backgroundColor": "#15b715",
+				"color": "#fff"
+			}
+		}
 	}
 }

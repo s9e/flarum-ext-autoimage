@@ -2,41 +2,24 @@
 
 /**
 * @package   s9e\autoimage
-* @copyright Copyright (c) 2015 The s9e Authors
+* @copyright Copyright (c) 2015-2016 The s9e Authors
 * @license   http://www.opensource.org/licenses/mit-license.php The MIT License
 */
 namespace s9e\Flarum\Autoimage;
 
-use Exception;
-use Flarum\Events\FormatterConfigurator;
-use Flarum\Support\Extension as BaseExtension;
+use Flarum\Event\ConfigureFormatter;
 use Illuminate\Events\Dispatcher;
+use s9e\TextFormatter\Configurator\Bundles\MediaPack;
 
-class Extension extends BaseExtension
+function subscribe(Dispatcher $events)
 {
-	public function listen(Dispatcher $events)
-	{
-		$events->subscribe(__NAMESPACE__ . '\\Listener');
-	}
-}
-
-class Listener
-{
-	public function subscribe(Dispatcher $events)
-	{
-		$events->listen('Flarum\\Events\\FormatterConfigurator', [$this, 'enableAutoimage']);
-	}
-
-	public function enableAutoimage(FormatterConfigurator $event)
-	{
-		try
+	$events->listen(
+		ConfigureFormatter::class,
+		function (ConfigureFormatter $event)
 		{
 			$event->configurator->Autoimage;
 		}
-		catch (Exception $e)
-		{
-		}
-	}
-}
+	);
+};
 
-return __NAMESPACE__ . '\\Extension';
+return __NAMESPACE__ . '\\subscribe';
