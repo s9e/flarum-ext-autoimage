@@ -17,7 +17,7 @@
 	},
 	"extra": {
 		"flarum-extension": {
-			"title": "s9e/autoimage",
+			"title": "AutoImage",
 			"icon": {
 				"name": "image",
 				"backgroundColor": "#15b715",
