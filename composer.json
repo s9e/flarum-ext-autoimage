@@ -2,7 +2,7 @@
 	"name": "s9e/flarum-ext-autoimage",
 	"title": "s9e/flarum-ext-autoimage",
 	"description": "Automatically turn image links into images.",
-	"version": "0.2.0",
+	"version": "1.0.0",
 	"author": {
 		"name": "JoshyPHP"
 	},
