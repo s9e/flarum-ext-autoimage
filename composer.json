@@ -3,7 +3,7 @@
 	"description": "Automatically turn image links into images.",
 	"type": "flarum-extension",
 	"keywords": ["flarum","image"],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": {
 		"name": "JoshyPHP"
 	},
@@ -21,7 +21,7 @@
 			"title": "AutoImage",
 			"icon": {
 				"name": "image",
-				"backgroundColor": "#b12c59",
+				"backgroundColor": "##1f781f",
 				"color": "#fff"
 			}
 		}
