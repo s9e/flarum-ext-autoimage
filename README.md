@@ -1,4 +1,4 @@
-s9e/autoimage is a Flarum extension that automatically turns image links into images. It only works on static links that ends with `.gif`, `.jpg`, `.jpeg` or `.png`.
+s9e/autoimage is a Flarum extension that automatically turns image links into images. It only works on static links that end with `.gif`, `.jpg`, `.jpeg` or `.png`.
 
 ### How to install
 
