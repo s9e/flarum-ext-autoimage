@@ -4,12 +4,13 @@
 	"type": "flarum-extension",
 	"keywords": ["flarum","image"],
 	"version": "1.1.0",
-	"author": {
-		"name": "JoshyPHP"
-	},
+	"authors": [
+		{
+			"name": "JoshyPHP"
+		}
+	],
 	"license": "MIT",
 	"require": {
-		"php": ">=5.4.0",
 		"flarum/core": ">=0.1.0-beta.8"
 	},
 	"support": {
@@ -20,7 +21,7 @@
 		"flarum-extension": {
 			"title": "AutoImage",
 			"icon": {
-				"name": "image",
+				"name": "far fa-image",
 				"backgroundColor": "#1f781f",
 				"color": "#fff"
 			}
