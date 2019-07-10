@@ -20,7 +20,7 @@
 		"flarum-extension": {
 			"title": "AutoImage",
 			"icon": {
-				"name": "image",
+				"name": "fas fa-image",
 				"backgroundColor": "#1f781f",
 				"color": "#fff"
 			}
